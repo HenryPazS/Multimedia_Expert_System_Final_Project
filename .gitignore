@@ -1,0 +1,6 @@
+*.exe
+*.o
+*.out
+build/
+node_modules/
+dist/
