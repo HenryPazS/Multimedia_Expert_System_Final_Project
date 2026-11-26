@@ -1,0 +1,36 @@
+header { background: #fff; border-bottom: 1px solid #cbdede; }
+.header-content, main { max-width: 72rem; margin-inline: auto; padding: 1.1rem clamp(1rem, 4vw, 2.5rem); }
+.header-content { display: flex; align-items: center; flex-wrap: wrap; gap: .8rem 1rem; }
+.brand { font-weight: 750; }
+.mode, .session-status { color: #145353; background: #e2f2ef; padding: .35rem .65rem; border-radius: .4rem; }
+nav { display: flex; flex-wrap: wrap; gap: .5rem; margin-left: auto; }
+nav [aria-current], .primary { color: #fff; background: #176361; border-color: #176361; }
+nav [aria-current]:hover:not(:disabled), .primary:hover:not(:disabled) { background: #114a49; }
+main { padding-block: 2rem; }
+.panel { background: #fff; border: 1px solid #cbdede; border-radius: .8rem; padding: clamp(1rem, 3vw, 1.6rem); min-width: 0; }
+.panel > :first-child { margin-top: 0; }
+#setup-title { margin-bottom: .5rem; }
+form { max-width: 37rem; }
+fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+form label, legend { font-weight: 650; }
+form input:not([type=checkbox]) { display: block; width: 100%; margin: .3rem 0 .9rem; padding: .55rem; border: 1px solid #7e9c9c; border-radius: .4rem; }
+.choices { display: flex; flex-wrap: wrap; gap: .45rem 1rem; }
+.choices label { display: flex; align-items: center; gap: .35rem; font-weight: 500; min-height: 2rem; }
+.choices input { accent-color: #176361; width: 1.1rem; height: 1.1rem; }
+.choices .error { flex-basis: 100%; }
+.preference-list { padding-left: 1.6rem; }
+.preference-list li { padding-block: .25rem; }
+.preference-list span { display: inline-block; min-width: min(10rem, 100%); }
+.preference-list button { margin: .15rem .25rem .15rem 0; }
+.dashboard { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; align-items: start; }
+.actions { display: flex; flex-wrap: wrap; gap: .5rem; }
+.error { color: #8c2329; background: #fff0f0; padding: .45rem .65rem; border-radius: .35rem; }
+figure { margin: 0; }
+figcaption { margin-top: .45rem; }
+img, video, audio { display: block; max-width: 100%; }
+img, video { width: 100%; border-radius: .45rem; }
+audio { width: 100%; }
+@media (max-width: 640px) {
+  .dashboard { grid-template-columns: 1fr; }
+  nav { margin-left: 0; }
+}
