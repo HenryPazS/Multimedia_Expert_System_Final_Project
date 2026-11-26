@@ -1,0 +1,27 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #172c35;
+  background: #f1f6f6;
+  line-height: 1.55;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 280px; }
+button, input { font: inherit; }
+button {
+  color: #17494a;
+  background: #fff;
+  border: 1px solid #7e9c9c;
+  border-radius: .5rem;
+  padding: .55rem .8rem;
+  cursor: pointer;
+}
+button:hover:not(:disabled) { background: #e4f3f0; }
+button:disabled { opacity: .55; cursor: default; }
+:focus-visible { outline: 3px solid #136c8b; outline-offset: 3px; }
+h1, h2, h3 { line-height: 1.2; }
+h1 { font-size: clamp(1.7rem, 4vw, 2.4rem); }
+h2 { font-size: 1.2rem; }
+h3 { font-size: 1rem; }
+p, ul, ol { margin-block: .6rem 1rem; }
