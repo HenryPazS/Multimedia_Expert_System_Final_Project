@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7
+    xmlns="urn:mpeg:mpeg7:schema:2001"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="AudioType">
+            <Audio id="birds">
+                <MediaLocator>
+                    <MediaUri>../media/audio/nature/birds.wav</MediaUri>
+                </MediaLocator>
+
+                <TextAnnotation>
+                    <FreeTextAnnotation xml:lang="en">
+                        An outdoor bird recording by Sadiquecat.
+                        Topic: nature. Contains bird calls.
+                    </FreeTextAnnotation>
+                </TextAnnotation>
+            </Audio>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

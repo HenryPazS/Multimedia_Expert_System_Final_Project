@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="ImageType">
+            <Image id="space-enemyGreen2">
+                <MediaLocator>
+                    <MediaUri>../../media/images/space/enemyGreen2.png</MediaUri>
+                </MediaLocator>
+                <TextAnnotation>
+                    <FreeTextAnnotation xml:lang="en">A green cartoon spacecraft, design 2, from Kenney's Space Shooter Remastered pack. Topic: space.</FreeTextAnnotation>
+                </TextAnnotation>
+            </Image>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

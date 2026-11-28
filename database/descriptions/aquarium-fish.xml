@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7
+    xmlns="urn:mpeg:mpeg7:schema:2001"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="aquarium-fish">
+                <MediaLocator>
+                    <MediaUri>../media/video/animals/aquarium-fish.mp4</MediaUri>
+                </MediaLocator>
+
+                <TextAnnotation>
+                    <FreeTextAnnotation xml:lang="en">
+                        Colorful fish swimming in an aquarium.
+                        Video by Magda Ehlers. Topic: animals.
+                        This clip has no audio track.
+                    </FreeTextAnnotation>
+                </TextAnnotation>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

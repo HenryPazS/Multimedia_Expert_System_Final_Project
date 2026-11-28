@@ -4,3 +4,16 @@
 build/
 node_modules/
 dist/
+
+# Downloaded videos stay local
+/database/media/video/**/*.mp4
+
+# Generated SQLite database
+/database/media.db
+/database/media.db-journal
+/database/media.db-wal
+/database/media.db-shm
+
+# System files
+.DS_Store
+Thumbs.db

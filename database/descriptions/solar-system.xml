@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="solar-system">
+                <MediaLocator>
+                    <MediaUri>../media/video/space/solar-system.mp4</MediaUri>
+                </MediaLocator>
+                <TextAnnotation>
+                    <FreeTextAnnotation xml:lang="en">An animated rendering of planets in the solar system. Topic: space. Contains an audio track.</FreeTextAnnotation>
+                </TextAnnotation>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>
